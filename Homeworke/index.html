@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap" rel="stylesheet">
+    
+        
+    
     </head>
 
     <body>
@@ -31,12 +34,23 @@
                     это самая опасная "тигрица"! Продолжение следует...
                 </h3>
                 </p>
-    
-                <h4>Чат</h4>
-                <input type="text">
-                <button>Отправить</button>
+                <div class="Отзывы">
+                <h4>Отзывы</h4>
+
+                <script>
+                    function go()
+                       {
+                       var name = document.getElementById("name").value
+                       let review = "Хороший сайт"
+                       document.getElementById("out").innerText = 'Привет: ${name}, ваш отзыв: ${review}'
+                       document.getElementById("name").value = ""
+                       }
+                   </script>
+               <input id="name" type="text" placeholder="Имя : Отзыв" value=""><button onclick="go()">Отправить</button><span
+                id="out">Привет:</span>
+                </div>
                 <ul>
-                <h7>
+                <h7><br><br><br><br><br>
                     <li>Привет</li>
                     <li>Как дела</li>
                     <li>Хорошо</li>
@@ -52,6 +66,8 @@
                 </h6>
             </footer>
         </div>
+        
     </body>
     
     </html>
+     
