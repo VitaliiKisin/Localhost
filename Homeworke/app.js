@@ -14,6 +14,7 @@ if (age >= 16 && age < 70) {
 
 document.getElementById("out").innerText = str;
 document.getElementById("name").value = "";
+document.getElementById('age').value = "";
 document.getElementById('review').value = ""
 }
 //function send()
