@@ -16,5 +16,10 @@ document.getElementById("out").innerText = str;
 document.getElementById("name").value = "";
 document.getElementById(review).value = ""
 }
-
+//function send()
+//{
+    //var text =document.getElementById('msg').value
+    //console.log(text);
+    //document.getElementById('msg').value = text;
+//}
  
