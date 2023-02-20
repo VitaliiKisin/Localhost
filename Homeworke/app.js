@@ -20,6 +20,6 @@ document.getElementById('review').value = ""
 //{
     //var text =document.getElementById('msg').value
     //console.log(text);
-    //document.getElementById('msg').value = text;
+    //document.getElementById('msg').value = "";
 //}
  
