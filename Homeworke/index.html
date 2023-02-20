@@ -8,10 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap" rel="stylesheet">
-    
-        
-    
-    </head>
+    <script src ="app.js"></script>
+</head>
 
     <body>
         <div class="wrapper">
@@ -37,17 +35,13 @@
                 <div class="Отзывы">
                 <h4>Отзывы</h4>
 
-                <script>
-                    function go()
-                       {
-                       var name = document.getElementById("name").value
-                       let review = "Хороший сайт"
-                       document.getElementById("out").innerText = 'Привет: ${name}, ваш отзыв: ${review}'
-                       document.getElementById("name").value = ""
-                       }
-                   </script>
-               <input id="name" type="text" placeholder="Имя : Отзыв" value=""><button onclick="go()">Отправить</button><span
-                id="out">Привет:</span>
+                
+                
+                <input id="name" type="text" placeholder="Имя" value="">
+                <input id="age" type="text" placeholder="Возраст" value="">
+                <input id="review" type="text" placeholder="Ваш отзыв" value="">
+                <button onclick="go()">Отправить</button> <span id="out">Привет:</span>
+
                 </div>
                 <ul>
                 <h7><br><br><br><br><br>
