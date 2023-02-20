@@ -18,7 +18,7 @@ document.getElementById('review').value = ""
 }
 //function send()
 //{
-    //var text =document.getElementById('msg').value
+    //var text =document.getElementById('msg').value;
     //console.log(text);
     //document.getElementById('msg').value = "";
 //}
